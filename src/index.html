@@ -14,16 +14,26 @@
 
 <body>
   <!-- Write your HTML code here, you can delete everything withing the body tags -->
+  <div class="container">
+    <div class="row d-flex justify-content-center text-center">
+      <div class="col-6"><button onclick=generarCarta() type="button" class="btn btn-success mt-3" id="boton">Cambiá tu carta</button></div>
+      <div class="col-6"><button onclick=inicioConteo() type="button" class="btn btn-warning mt-3" id="botonConteo">Cambiala en
+          10s</button></div>
+    </div>
+  </div>
+
   <div class="container text-center">
-    
-      <div class="card mx-auto mt-5" style="width: 20rem; height: 30rem;">
 
-        <div class="position-absolute top-0 start-0  top" style="font-size: 100px;"></div>
-        <div class=" position-absolute top-50 start-50 translate-middle number " style="font-weight: bold; font-size: 150px;"></div>
-        <div class=" position-absolute bottom-0 end-0  bottom " style="font-size: 100px;"></div>
+    <div class="card mx-auto mt-5" style="width: 20rem; height: 30rem;">
 
+      <div class="position-absolute top-0 start-0  top" style="font-size: 100px;"></div>
+      <div class=" position-absolute top-50 start-50 translate-middle number "
+        style="font-weight: bold; font-size: 150px;"></div>
+      <div class=" position-absolute bottom-0 end-0  bottom " style="font-size: 100px; transform: rotate(180deg);">
       </div>
-    
+
+    </div>
+
   </div>
 
   <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
